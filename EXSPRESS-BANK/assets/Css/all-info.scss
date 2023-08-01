@@ -1,0 +1,74 @@
+main {
+    #info-of-cart {
+        .info-way {
+
+            a,
+            i {
+                display: inline-block;
+                margin-left: 15px;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.02em;
+                color: white;
+            }
+
+            i {
+                font-size: 12px !important;
+            }
+        }
+    }
+
+    #card-specialty {
+        .info-of-cart {
+            .cart-info-content {
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+
+                .all-cards {
+                    padding: 52px 43px;
+                    position: relative;
+
+                    .inf-img {
+                        position: absolute;
+                        display: flex;
+                        justify-content: space-between;
+
+                        img {
+                            position: absolute;
+                            top: -39px;
+                        }
+
+                        h4 {
+                            padding: 0px 130px;
+                            margin-left: 65px;
+                            font-weight: 600;
+                            font-size: 25px;
+                            line-height: 120%;
+                            letter-spacing: 0.05em;
+                            color: #231F20;
+                        }
+                    }
+                    .inf-btn{
+                  
+                      button{
+                        font-weight: normal;
+                        font-size: 17px;
+                        line-height: 15px;
+                        letter-spacing: 0.10em;
+                        text-transform: uppercase;
+                        color: #231F20;
+                        margin-right: 40px;
+                        background-color: #F9C20A;
+                        border: none;
+                        padding: 17px 17px;
+                        border-radius: 10px;
+                      }
+                    }
+                }
+            }
+
+        }
+    }
+}
